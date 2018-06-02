@@ -33,8 +33,7 @@ class App extends React.Component {
 				Tutaj pojawiają się komponeny naszej aplikacji.
 			</div>
 		);
-	}
-	}
-}
+	};
+};
 
 export default App;
