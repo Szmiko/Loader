@@ -1,5 +1,6 @@
 import React from 'react';
 import uuid from 'uuid';
+import style from './App.css';
 
 class App extends React.Component {
 	constructor(props) {
@@ -22,10 +23,6 @@ class App extends React.Component {
 		const remainder = this.state.data.filter(todo => todo.id !== id);
 		this.setState({data: remainder});
 	}
-
-//	title(title) {
-//		??
-//	}
 
 	render() {
 		return (
