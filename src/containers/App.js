@@ -1,5 +1,6 @@
 import React from 'react';
 import uuid from 'uuid';
+import style from './App.css';
 
 class App extends React.Component {
 	constructor(props) {
@@ -23,18 +24,13 @@ class App extends React.Component {
 		this.setState({data: remainder});
 	}
 
-//	title(title) {
-//		??
-//	}
-
 	render() {
 		return (
 			<div className={style.TodoApp}>
 				Tutaj pojawiają się komponeny naszej aplikacji.
 			</div>
 		);
-	}
-	}
-}
+	};
+};
 
 export default App;

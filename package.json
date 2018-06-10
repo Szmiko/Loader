@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack ./index.js --output app.bundle.js"
+    "start": "webpack ./src/index.js --output app.bundle.js"
   },
   "repository": {
     "type": "git",
